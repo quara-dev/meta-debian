@@ -5,9 +5,9 @@ REPACK_PV = "2.7.16"
 PV = "2.7.16"
 
 DEBIAN_SRC_URI = " \
-    ${DEBIAN_SECURITY_UPDATE_MIRROR}/main/p/python2.7/python2.7_2.7.16-2+deb10u2.dsc;name=python2.7_2.7.16-2+deb10u3.dsc \
+    ${DEBIAN_SECURITY_UPDATE_MIRROR}/main/p/python2.7/python2.7_2.7.16-2+deb10u3.dsc;name=python2.7_2.7.16-2+deb10u3.dsc \
     ${DEBIAN_SECURITY_UPDATE_MIRROR}/main/p/python2.7/python2.7_2.7.16.orig.tar.gz;name=python2.7_2.7.16.orig.tar.gz \
-    ${DEBIAN_SECURITY_UPDATE_MIRROR}/main/p/python2.7/python2.7_2.7.16-2+deb10u2.diff.gz;name=python2.7_2.7.16-2+deb10u3.diff.gz;apply=no \
+    ${DEBIAN_SECURITY_UPDATE_MIRROR}/main/p/python2.7/python2.7_2.7.16-2+deb10u3.diff.gz;name=python2.7_2.7.16-2+deb10u3.diff.gz;apply=no \
 "
 
 SRC_URI[python2.7_2.7.16-2+deb10u3.dsc.md5sum] = "f4d888c197dfc6394abef8b0ceacb456"
